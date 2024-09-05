@@ -1,6 +1,6 @@
 Weather Forecast Application 🌤️
 
-A responsive weather forecast web application that allows users to search for weather forecasts by city name or detect their current location to display live weather conditions. The application fetches weather data and a 5-day extended forecast using the OpenWeatherMap API. The interface is styled with Tailwind CSS and features animations for a smooth user experience.
+A responsive weather forecast web application that allows users to search for weather forecasts by city name or detect their current location to display live weather conditions. The application fetches weather data and a 5-day extended forecast using the OpenWeatherMap API. The interface is styled with Tailwind CSS and features animations for a smooth user experience.<br>
 
 Features 🚀
 
@@ -9,20 +9,22 @@ Live Location Weather: Automatically detect your location using the Geolocation 
 Weather Details: Displays temperature, humidity, weather description, and an icon representing the weather condition.
 5-Day Extended Forecast: Shows the weather for the next 5 days, including temperature, humidity, and a weather icon.
 Responsive Design: Works across desktops, tablets, and mobile devices.
-Animations: Smooth animations for better user experience.
+Animations: Smooth animations for better user experience.<br>
 
 Technologies Used 🛠️
 
-HTML: Provides the structure of the web application.
-JavaScript: Handles logic for fetching and displaying weather data using the OpenWeatherMap API.
-Tailwind CSS: Utility-first CSS framework for styling the user interface.
-Custom CSS: For additional animations and styles.
-OpenWeatherMap API: Fetches weather data based on city names or geographical coordinates.
-Geolocation API: Detects the user’s current location to fetch live weather information.
+HTML: Provides the structure of the web application. <br>
+
+JavaScript: Handles logic for fetching and displaying weather data using the OpenWeatherMap API.<br>
+Tailwind CSS: Utility-first CSS framework for styling the user interface.<br>
+Custom CSS: For additional animations and styles.<br>
+OpenWeatherMap API: Fetches weather data based on city names or geographical coordinates.<br>
+Geolocation API: Detects the user’s current location to fetch live weather information.<br>
+
 Prerequisites 🔑
 
 OpenWeatherMap API Key: You need an API key from OpenWeatherMap to access weather data. Sign up here for a free API key.
-Modern Browser: Supports the Geolocation API to detect the user’s location.
+Modern Browser: Supports the Geolocation API to detect the user’s location.<br>
 Project Structure 📂
 
 ```bash
@@ -63,14 +65,14 @@ Run the Application: Open the index.html file in a browser to run the applicatio
 Usage 🖥️
 
 Search for a city: Enter the name of the city in the search bar and click the "Search" button to display the current weather and the 5-day forecast.
-Get current location weather: Click the "Get Current Location" button to fetch the weather for your live location. Make sure your browser has location services enabled.
+Get current location weather: Click the "Get Current Location" button to fetch the weather for your live location. Make sure your browser has location services enabled.<br>
 
 Troubleshooting 🛠️
 
 Geolocation not working: Ensure that location permissions are allowed in your browser. Some browsers may block geolocation if accessed over an insecure HTTP connection.
 Weather data not displaying: Verify that you have entered a valid city name, and check that your API key is properly set up.
 API key error: If you see an error related to the API key, ensure that the key is valid and not expired.
-Debugging: Open the developer console in your browser (F12 or right-click → Inspect → Console) to check for any errors.
+Debugging: Open the developer console in your browser (F12 or right-click → Inspect → Console) to check for any errors.<br>
 
 License 📄
 
