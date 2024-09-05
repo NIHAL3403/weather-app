@@ -10,13 +10,7 @@ Weather Details: Displays temperature, humidity, weather description, and an ico
 5-Day Extended Forecast: Shows the weather for the next 5 days, including temperature, humidity, and a weather icon.
 Responsive Design: Works across desktops, tablets, and mobile devices.
 Animations: Smooth animations for better user experience.
-Demo 🌍
 
-Live Demo (You can upload the app to a platform like GitHub Pages or Netlify and add the link here)
-Screenshots 📸
-
-Initial View:
-Weather After Search:
 Technologies Used 🛠️
 
 HTML: Provides the structure of the web application.
