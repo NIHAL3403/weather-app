@@ -14,7 +14,6 @@ Animations: Smooth animations for better user experience.<br>
 Technologies Used 🛠️
 
 HTML: Provides the structure of the web application. <br>
-
 JavaScript: Handles logic for fetching and displaying weather data using the OpenWeatherMap API.<br>
 Tailwind CSS: Utility-first CSS framework for styling the user interface.<br>
 Custom CSS: For additional animations and styles.<br>
