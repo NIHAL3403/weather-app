@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast App</title>
+  <!-- Link to compiled Tailwind CSS -->
+  <link href="dist/tailwind.css" rel="stylesheet">
+  <!-- Custom CSS for additional styles and animations -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white min-h-screen flex flex-col justify-center items-center">
+
+  <!-- Header with animation -->
+  <header class="text-4xl font-bold my-4 animate-fade-in-up">🌤️ Weather Forecast</header>
+
+  <!-- Search Form -->
+  <div class="w-full max-w-md animate-slide-in">
+    <form id="weather-form" class="flex flex-col sm:flex-row justify-center mb-4">
+      <input type="text" id="city-input" placeholder="Enter city name" class="text-black px-4 py-2 rounded-l-lg w-full sm:w-auto">
+      <button class="bg-blue-800 px-4 py-2 rounded-r-lg text-white hover:bg-blue-700 transition-transform transform hover:scale-105">Search</button>
+    </form>
+
+    <!-- Button to detect and display current location weather -->
+    <button id="current-location-btn" class="bg-green-800 px-4 py-2 mt-4 w-full text-white rounded-lg hover:bg-green-700 transition-transform transform hover:scale-105">Get Current Location</button>
+  </div>
+
+  <!-- Weather Information -->
+  <div id="weather-container" class="w-full max-w-md p-6 bg-white bg-opacity-20 rounded-lg shadow-lg backdrop-blur-lg mt-6 animate-slide-in-bottom">
+    <!-- Current weather display here -->
+  </div>
+
+  <!-- Extended Forecast Section with animation -->
+  <div id="extended-forecast" class="mt-8 w-full max-w-3xl p-6 bg-white bg-opacity-20 rounded-lg shadow-lg backdrop-blur-lg hidden animate-fade-in-up">
+    <h2 class="text-2xl font-bold mb-4">Extended Forecast</h2>
+    <div id="forecast-grid" class="grid grid-cols-1 sm:grid-cols-5 gap-4">
+      <!-- 5-Day forecast cards -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

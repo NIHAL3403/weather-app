@@ -1,0 +1,81 @@
+/* Background styling for better visual appeal */
+body {
+    background-image: url('weather-bg.jpg'); /* Replace with a high-quality background image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Input field focus effect */
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.7);
+  }
+  
+  /* Pulse animation for the weather icons */
+  .weather-icon {
+    animation: pulse 2s infinite;
+  }
+  
+  /* Slide-in animation for the form and elements */
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Fade-in animation */
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animations */
+  .animate-slide-in {
+    animation: slide-in 1s ease-out;
+  }
+  
+  .animate-slide-in-bottom {
+    animation: slide-in-bottom 1s ease-out;
+  }
+  
+  .animate-fade-in-up {
+    animation: fade-in-up 1.2s ease-out;
+  }
+  
+  /* Add hover and transform effects for buttons */
+  button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Cards animation */
+  #forecast-grid > div {
+    transition: transform 0.3s ease;
+  }
+  
+  #forecast-grid > div:hover {
+    transform: scale(1.05);
+  }
+  
