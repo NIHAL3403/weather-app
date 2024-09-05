@@ -64,7 +64,7 @@ Run the Application: Open the index.html file in a browser to run the applicatio
 Usage 🖥️
 
 Search for a city: Enter the name of the city in the search bar and click the "Search" button to display the current weather and the 5-day forecast.
-Get current location weather: Click the "Get Current Location" button to fetch the weather for your live location. Make sure your browser has location services enabled.<br>
+Get current location weather: Click the "Get Current Location" button to fetch the weather for your live location (Wait for 15 - 30 sec). Make sure your browser has location services enabled.<br>
 
 Troubleshooting 🛠️
 
